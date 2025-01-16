@@ -27,7 +27,8 @@ def get_number(prompt):
         try:
             n = int(input(prompt))
         except ValueError:
-            print("Sorry not a number try again")
+            pass
+            #print("Sorry not a number try again")
         else:
             return n
 
